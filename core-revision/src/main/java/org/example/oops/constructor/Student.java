@@ -19,7 +19,7 @@ public class Student {
 //        this.age=24;
 //        this.marks=90;
 //
-        //internally: new Student("Ambuj dubey",15,80);
+        //internally:- new Student("Ambuj dubey",15,80);
         this("Ambuj dubey",15,80);
     }
     Student(Student other){
