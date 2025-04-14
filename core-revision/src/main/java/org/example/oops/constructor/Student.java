@@ -60,7 +60,9 @@ public class Student {
 
         Student one=new Student();
         Student two=one;
+        //passing one two another
         two.name="ramesh";
+
         System.out.println(one.name);
 
 
