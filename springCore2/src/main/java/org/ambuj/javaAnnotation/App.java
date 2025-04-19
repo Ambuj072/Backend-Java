@@ -15,6 +15,7 @@ public class App
     {
 
         System.out.println( "Hello World!" );
+        //Annotation based
         ApplicationContext context= new AnnotationConfigApplicationContext(BeanContainer.class);
         Car car=context.getBean("car", Car.class);
         car.Start();
