@@ -1,0 +1,10 @@
+In this project we have two database like mysql and Oracle how to configure
+
+for configure that we have a Interface DatabaseService which have only logic not implimentation;
+
+we have two class for implementation MysqlDatabase and OracleDatabase
+
+if we have to use 1 of these
+
+1) then I have to write @Primary at the top of the both(any one)
+2) either i have to use @Qualifer at the MyController class Contaructor parameter
